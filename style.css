@@ -8,8 +8,9 @@ h1{
 .name-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -29,4 +30,31 @@ section{
 .top-banner{
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.exp-item{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+}
+.exp-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#side-border1{
+    border-left: 7px solid tomato;
+}
+#side-border2{
+    border-left: 7px solid blue;
+}
+footer p{
+ text-align: center;
 }
